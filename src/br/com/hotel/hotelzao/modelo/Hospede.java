@@ -1,12 +1,12 @@
 package br.com.hotel.hotelzao.modelo;
 
-public class Cliente {
+public class Hospede {
 
     private String nome;
     private String cpf;
     private String profissao;
     private int idade;
-    private Endereço endereço;
+    private Endereco endereço;
 
     public String getNome() {
         return nome;
@@ -40,7 +40,11 @@ public class Cliente {
         this.idade = idade;
     }
 
-    public Endereço getEndereço() {
+    public void setEndereço(Endereco endereço) {
+        this.endereço = endereço;
+    }
+
+    public Endereco getEndereço() {
         return endereço;
     }
 

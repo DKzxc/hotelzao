@@ -1,6 +1,6 @@
 package br.com.hotel.hotelzao.modelo;
 
-public class Endereço {
+public class Endereco {
 
     private String nomeRua;
     private String bairro;
