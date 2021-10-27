@@ -5,4 +5,6 @@ public class Quartos {
     private String numero;
     private double valor;
 
+    "abra cadabra alado"
+
 }
