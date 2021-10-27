@@ -6,7 +6,7 @@ public class Cliente {
     private String cpf;
     private String profissao;
     private int idade;
-    private Endereço endereço;
+    private Endereco endereco;
 
     public String getNome() {
         return nome;
@@ -40,8 +40,13 @@ public class Cliente {
         this.idade = idade;
     }
 
-    public Endereço getEndereço() {
-        return endereço;
+    public Endereco getEndereco() {
+        return endereco;
     }
 
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
 }
+
+
