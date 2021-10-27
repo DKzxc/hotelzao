@@ -16,8 +16,8 @@ public class Teste {
         cliente.setProfissao("Tatoador");
 
         cliente.setEndereco(endereco);
-        endereco.setEstado("SP");
 
+        cliente.getEndereco().setEstado("SP");
         cliente.getEndereco().setCidade("Boituva");
         cliente.getEndereco().setBairro("Vila Natal");
         cliente.getEndereco().setNomeRua("Rua Deiz pras Onzi");
@@ -29,6 +29,11 @@ public class Teste {
 
 
         System.out.println(cliente.getEndereco().getNomeRua());
+        System.out.println(cliente.getEndereco().getBairro());
+        System.out.println(cliente.getEndereco().getCidade());
+        System.out.println(cliente.getEndereco().getEstado());
+
+
 
     }
 
