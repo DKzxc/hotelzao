@@ -6,7 +6,7 @@ public class Hospede {
     private String cpf;
     private String profissao;
     private int idade;
-    private Endereco endereço;
+    private Endereco endereco;
 
     public String getNomeCompleto() {
         return nomeCompleto;
@@ -40,12 +40,12 @@ public class Hospede {
         this.idade = idade;
     }
 
-    public void setEndereço(Endereco endereço) {
-        this.endereço = endereço;
+    public void setEndereço(Endereco endereco) {
+        this.endereço = endereco;
     }
 
-    public Endereco getEndereço() {
-        return endereço;
+    public Endereco getEndereco() {
+        return endereco;
     }
 
 }
