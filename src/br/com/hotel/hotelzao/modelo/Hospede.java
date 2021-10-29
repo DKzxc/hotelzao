@@ -1,19 +1,19 @@
 package br.com.hotel.hotelzao.modelo;
 
-public class Cliente {
+public class Hospede {
 
-    private String nome;
+    private String nomeCompleto;
     private String cpf;
     private String profissao;
     private int idade;
-    private Endereço endereço;
+    private Endereco endereco;
 
-    public String getNome() {
-        return nome;
+    public String getNomeCompleto() {
+        return nomeCompleto;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
     }
 
     public String getCpf() {
@@ -40,8 +40,12 @@ public class Cliente {
         this.idade = idade;
     }
 
-    public Endereço getEndereço() {
-        return endereço;
+    public void setEndereço(Endereco endereco) {
+        this.endereço = endereco;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
     }
 
 }

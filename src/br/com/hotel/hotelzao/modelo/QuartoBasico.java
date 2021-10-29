@@ -1,6 +1,6 @@
 package br.com.hotel.hotelzao.modelo;
 
-public class QuartoBasico {
+public class QuartoBasico extends Quarto{
 
 
 
