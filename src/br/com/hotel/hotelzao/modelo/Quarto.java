@@ -4,5 +4,4 @@ public class Quarto {
 
     private String numero;
     private double valor;
-
 }
