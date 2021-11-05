@@ -80,9 +80,9 @@ public class Guest {
     //refactor Extract Method, encapsulamo dois News em um método la na Classe TestGuest, que ai copiei e colei
     //na classe Guest. Entao pra ficar mais facil atribuir os parametros, seleciona o método em
     //cinza e "Refactor/ Introduce Parameter. Pra usar, só dar New no método create
-    public static Guest create(String fullName, String document, String street) {
-        Adress endereco = new Adress(street,400,"Mezopotamia","Acre");
-        Guest g1 = new Guest(fullName, document,"pedrerao",29,endereco);
+    public static Guest create(String fullName, String document, String occupation, int age, String street, int number, String city, String state) {
+        Adress adress = new Adress(street, number, city, state);
+        Guest g1 = new Guest(fullName, document, occupation, age, adress);
         return g1;
     }
 
