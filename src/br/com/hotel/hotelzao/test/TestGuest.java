@@ -1,5 +1,6 @@
 package br.com.hotel.hotelzao.test;
 
+import br.com.hotel.hotelzao.model.Adress;
 import br.com.hotel.hotelzao.model.Guest;
 
 public class TestGuest {
@@ -24,10 +25,9 @@ public class TestGuest {
 
         g2.mostrarInformacoes();
 
-
+        Guest g3 = Guest.create("Olavo", "222.333.111-02","pro player",19,"Rua joaquim",33,"Rio de janeiro","RJ");
+        g3.mostrarInformacoes();
 
     }
-
-
 
 }
