@@ -25,7 +25,7 @@ public class TestGuest {
 
         g2.mostrarInformacoes();
 
-
+        System.out.println("Total of Guests: " + Guest.getTotalGuest());
 
     }
 

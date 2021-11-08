@@ -9,7 +9,11 @@ public class Guest {
     private Adress adress;
     private static int totalGuest = 0;
 
-    public Guest(String fullName, String document, String occupation, int age,Adress adress) {
+    public static int getTotalGuest() {
+        return totalGuest;
+    }
+
+    public Guest(String fullName, String document, String occupation, int age, Adress adress) {
         Guest.totalGuest++;
 
         this.fullName = fullName;
